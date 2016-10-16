@@ -3,8 +3,36 @@
   "version": "1.0.0",
   "description": "packages that I have installed globally",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "for P in $(node -p \"pkg = require('./package.json'); ['dependencies','devDependencies'].map(k => Object.keys(pkg[k]).map(n => [n, pkg[k][n]].join('@')).join(' ')).join(' ')\"); do echo $P; npm i --min-cache=9999999999 $P; done"
   },
   "author": "Max F. Albrecht <1@178.is>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "browserify": "^13.1.0",
+    "cheerio-cli": "^0.1.0",
+    "coffee-script": "^1.11.1",
+    "conventional-changelog": "^1.1.0",
+    "corsproxy": "^1.5.0",
+    "create-react-app": "^0.5.0",
+    "electron": "^1.4.3",
+    "forever": "^0.15.2",
+    "greenkeeper": "^4.0.0",
+    "hoodie-cli": "^0.6.3",
+    "js-yaml": "^3.6.1",
+    "json": "^9.0.4",
+    "npm": "^3.10.8",
+    "pushstate-server": "^2.1.0",
+    "semantic-release-cli": "^1.4.1",
+    "standard": "^8.4.0",
+    "surge": "^0.18.0",
+    "yo": "^1.8.5"
+  },
+  "dependencies": {
+    "async": "^2.1.1",
+    "lodash": "^4.16.4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
 }
