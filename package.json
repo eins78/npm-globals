@@ -25,7 +25,7 @@
     "hoodie-cli": "^0.6.3",
     "js-yaml": "^3.6.1",
     "json": "^9.0.4",
-    "npm": "^3.10.8",
+    "npm": "^3.10.9",
     "pushstate-server": "^2.1.0",
     "semantic-release-cli": "^1.4.1",
     "standard": "^8.4.0",
