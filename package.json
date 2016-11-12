@@ -23,7 +23,7 @@
     "greenkeeper": "^4.0.0",
     "greenkeeper-postpublish": "^1.0.1",
     "hoodie-cli": "^0.6.3",
-    "js-yaml": "^3.6.1",
+    "js-yaml": "^3.7.0",
     "json": "^9.0.4",
     "npm": "^3.10.9",
     "pushstate-server": "^2.1.0",
