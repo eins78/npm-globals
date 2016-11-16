@@ -35,7 +35,7 @@
   "dependencies": {
     "async": "^2.1.2",
     "lodash": "^4.17.1",
-    "react": "^15.3.2",
+    "react": "^15.4.0",
     "react-dom": "^15.3.2"
   }
 }
