@@ -27,7 +27,7 @@
     "json": "^9.0.4",
     "npm": "^4.0.5",
     "pushstate-server": "^2.1.0",
-    "semantic-release-cli": "^3.0.2",
+    "semantic-release-cli": "^3.0.3",
     "standard": "^8.6.0",
     "surge": "^0.18.0",
     "yo": "^1.8.5"
