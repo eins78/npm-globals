@@ -14,7 +14,7 @@
     "babel-cli": "^6.22.2",
     "browserify": "^13.3.0",
     "cheerio-cli": "^0.1.0",
-    "coffee-script": "^1.12.1",
+    "coffee-script": "^1.12.3",
     "conventional-changelog": "^1.1.0",
     "corsproxy": "^1.5.0",
     "create-react-app": "^1.0.3",
