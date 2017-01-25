@@ -12,7 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.22.2",
-    "browserify": "^13.3.0",
+    "browserify": "^14.0.0",
     "cheerio-cli": "^0.1.0",
     "coffee-script": "^1.12.3",
     "conventional-changelog": "^1.1.0",
