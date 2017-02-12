@@ -1,12 +1,13 @@
 {
   "name": "@eins78/globals",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "packages that I have installed globally",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install": "npm run -s alldeps | xargs -n16 npm i --min-cache=9999999",
     "alldeps": "node -p \"pkg = require('./package.json'); ['dependencies','devDependencies'].map(k => Object.keys(pkg[k]).map(n => [n, pkg[k][n]].join('@')).join(' ')).join(' ')\"",
-    "postpublish": "greenkeeper-postpublish"
+    "postpublish": "greenkeeper-postpublish",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Max F. Albrecht <1@178.is>",
   "license": "MIT",
@@ -30,12 +31,17 @@
     "semantic-release-cli": "^3.0.3",
     "standard": "^8.6.0",
     "surge": "^0.18.0",
-    "yo": "^1.8.5"
+    "yo": "^1.8.5",
+    "semantic-release": "^6.3.2"
   },
   "dependencies": {
     "async": "^2.1.4",
     "lodash": "^4.17.4",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eins78/npm-globals.git"
   }
 }
