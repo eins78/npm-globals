@@ -35,7 +35,7 @@
     "semantic-release": "6.3.2"
   },
   "dependencies": {
-    "async": "2.1.4",
+    "async": "2.1.5",
     "lodash": "4.17.4",
     "react": "15.4.2",
     "react-dom": "15.4.2"
