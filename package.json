@@ -18,7 +18,7 @@
     "coffee-script": "1.12.4",
     "conventional-changelog": "1.1.0",
     "corsproxy": "1.5.0",
-    "create-react-app": "1.0.4",
+    "create-react-app": "1.1.0",
     "electron": "1.4.15",
     "forever": "0.15.3",
     "greenkeeper": "4.2.1",
