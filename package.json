@@ -25,7 +25,7 @@
     "greenkeeper-postpublish": "1.0.1",
     "hoodie-cli": "0.6.3",
     "js-yaml": "3.8.2",
-    "json": "9.0.4",
+    "json": "9.0.6",
     "npm": "4.3.0",
     "pushstate-server": "2.2.2",
     "semantic-release-cli": "3.0.3",
