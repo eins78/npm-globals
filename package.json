@@ -19,7 +19,7 @@
     "conventional-changelog": "1.1.0",
     "corsproxy": "1.5.0",
     "create-react-app": "1.1.0",
-    "electron": "1.4.15",
+    "electron": "1.6.1",
     "forever": "0.15.3",
     "greenkeeper": "4.2.1",
     "greenkeeper-postpublish": "1.0.1",
