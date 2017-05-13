@@ -22,15 +22,16 @@
     "forever": "0.15.3",
     "greenkeeper-postpublish": "1.0.1",
     "hoodie-cli": "0.6.3",
-    "js-yaml": "3.8.4",
     "htmltojsx": "^0.2.6",
+    "js-yaml": "3.8.4",
     "json": "9.0.6",
+    "now": "5.2.3",
     "npm": "4.5.0",
     "pushstate-server": "3.0.0",
+    "semantic-release": "6.3.6",
     "semantic-release-cli": "3.0.3",
     "standard": "10.0.2",
-    "yo": "1.8.5",
-    "semantic-release": "6.3.6"
+    "yo": "1.8.5"
   },
   "dependencies": {
     "async": "2.4.0",
