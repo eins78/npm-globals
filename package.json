@@ -1,6 +1,6 @@
 {
   "name": "@eins78/globals",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "packages that I have installed globally",
   "scripts": {
     "test": "npm run install",
