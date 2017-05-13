@@ -6,7 +6,6 @@
     "test": "npm run install",
     "install": "npm run -s alldeps | xargs -n16 npm i --min-cache=9999999",
     "alldeps": "node -p \"pkg = require('./package.json'); ['dependencies','devDependencies'].map(k => Object.keys(pkg[k]).map(n => [n, pkg[k][n]].join('@')).join(' ')).join(' ')\"",
-    "postpublish": "greenkeeper-postpublish",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Max F. Albrecht <1@178.is>",
