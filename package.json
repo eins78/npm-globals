@@ -32,7 +32,7 @@
     "semantic-release-cli": "3.0.3",
     "serve": "5.1.5",
     "standard": "10.0.2",
-    "yo": "1.8.5"
+    "yo": "2.0.0"
   },
   "dependencies": {
     "async": "2.4.0",
