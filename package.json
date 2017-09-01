@@ -11,6 +11,7 @@
   "author": "Max F. Albrecht <1@178.is>",
   "license": "MIT",
   "dependencies": {
+    "async": "2.5.0",
     "babel-cli": "6.26.0",
     "browserify": "14.3.0",
     "cheerio-cli": "0.1.0",
@@ -33,7 +34,6 @@
     "serve": "5.1.5",
     "standard": "10.0.3",
     "yo": "2.0.0",
-    "async": "2.4.0",
     "lodash": "4.17.4",
     "react": "15.5.4",
     "react-dom": "15.6.0"
