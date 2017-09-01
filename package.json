@@ -11,6 +11,7 @@
   "author": "Max F. Albrecht <1@178.is>",
   "license": "MIT",
   "dependencies": {
+    "async": "2.5.0",
     "babel-cli": "6.26.0",
     "browserify": "14.4.0",
     "cheerio-cli": "0.1.0",
@@ -25,18 +26,17 @@
     "htmltojsx": "^0.2.6",
     "js-yaml": "3.9.1",
     "json": "9.0.6",
+    "lodash": "4.17.4",
     "now": "7.4.0",
     "npm": "5.3.0",
     "pushstate-server": "3.0.1",
     "semantic-release": "7.0.2",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
     "semantic-release-cli": "3.0.3",
     "serve": "6.0.6",
     "standard": "10.0.3",
-    "yo": "2.0.0",
-    "async": "2.5.0",
-    "lodash": "4.17.4",
-    "react": "15.6.1",
-    "react-dom": "15.6.1"
+    "yo": "2.0.0"
   },
   "devDependencies": {},
   "repository": {
